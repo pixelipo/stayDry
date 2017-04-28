@@ -1,5 +1,4 @@
 from weather import WeatherModel as Weather
-# import air
 import sys
 
 
@@ -10,6 +9,3 @@ if result > 0:
     print(str(result) + "mm of rain expected in " + weather.city[0] + " tomorrow!")
 else:
     print("No rain in " + weather.city + " tomorrow!")
-
-# air = air.AirModel(location)
-# print(air.findCity())
